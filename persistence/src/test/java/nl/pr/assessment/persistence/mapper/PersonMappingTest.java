@@ -1,6 +1,6 @@
 package nl.pr.assessment.persistence.mapper;
 import nl.pr.assessment.persistence.entity.PersonEntity;
-import nl.pr.asessment.model.Person;
+import nl.pr.assessment.model.Person;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

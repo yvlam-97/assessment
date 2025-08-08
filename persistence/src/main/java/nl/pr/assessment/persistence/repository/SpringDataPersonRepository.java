@@ -1,4 +1,4 @@
-package nl.pr.assessment.persistence.jpa;
+package nl.pr.assessment.persistence.repository;
 
 import nl.pr.assessment.persistence.entity.PersonEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

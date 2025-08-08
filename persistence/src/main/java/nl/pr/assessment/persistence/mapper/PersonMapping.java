@@ -1,7 +1,7 @@
 package nl.pr.assessment.persistence.mapper;
 
 import java.util.stream.Collectors;
-import nl.pr.asessment.model.Person;
+import nl.pr.assessment.model.Person;
 import nl.pr.assessment.persistence.entity.PersonEntity;
 import org.springframework.stereotype.Component;
 

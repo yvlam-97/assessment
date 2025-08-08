@@ -1,4 +1,4 @@
-package nl.pr.asessment.model;
+package nl.pr.assessment.model;
 
 import java.time.LocalDate;
 import java.util.HashSet;
@@ -73,5 +73,9 @@ public class Person {
 
     public void setPartner(Person partner) {
         this.partner = partner;
+    }
+
+    public void addChildren(Set<Person> children) {
+        this.children.addAll(children);
     }
 }
