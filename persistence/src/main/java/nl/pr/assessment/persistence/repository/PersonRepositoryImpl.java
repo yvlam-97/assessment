@@ -1,16 +1,18 @@
-package nl.pr.assessment.persistence.jpa;
+package nl.pr.assessment.persistence.repository;
 
 import java.util.Optional;
-import nl.pr.asessment.model.Person;
-import nl.pr.asessment.repository.PersonRepository;
+import nl.pr.assessment.model.Person;
+import nl.pr.assessment.repository.PersonRepository;
 import nl.pr.assessment.persistence.entity.PersonEntity;
 import nl.pr.assessment.persistence.mapper.PersonMapping;
+import org.springframework.stereotype.Repository;
 
 /**
  * @author Youri de Vlam
  *
  * Repository implementation for managing Person entities.
  */
+@Repository
 public class PersonRepositoryImpl implements PersonRepository {
 
     private final SpringDataPersonRepository jpaRepository;

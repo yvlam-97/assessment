@@ -1,7 +1,7 @@
-package nl.pr.asessment.repository;
+package nl.pr.assessment.repository;
 
 import java.util.Optional;
-import nl.pr.asessment.model.Person;
+import nl.pr.assessment.model.Person;
 
 /**
  * @author Youri de Vlam

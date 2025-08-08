@@ -46,6 +46,12 @@ public class PersonEntity {
     )
     private Set<PersonEntity> children;
 
+    public PersonEntity() {}
+
+    public PersonEntity(Long id) {
+        this.id = id;
+    }
+
     public Long getId() {
         return id;
     }
